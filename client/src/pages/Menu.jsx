@@ -14,7 +14,9 @@ const Menu = () => {
     const { addToCart } = useCart();
 
     useEffect(() => {
-        fetch('http://localhost:5001/api/menu')
+        // Use relative path for production (Vercel handles routing), fallback to localhost for dev
+        const apiUrl = import.meta.env.PROD ? '/api/menu' : 'http://localhost:5001/api/menu';
+        fetch(apiUrl)
             .then(res => res.json())
             .then(data => {
                 setMenuItems(data);
