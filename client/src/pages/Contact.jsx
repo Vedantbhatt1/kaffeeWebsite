@@ -64,35 +64,37 @@ const Contact = () => {
                                         ))}
                                     </div>
                                 </div>
+                            </div>
 
-                                <div className="info-card">
+                            {/* Right Side - WhatsApp Booking + Email */}
+                            <div className="right-column">
+                                <div className="contact-map">
+                                    <div className="whatsapp-booking">
+                                        <FaWhatsapp className="whatsapp-icon" />
+                                        <h3>Book Your Table</h3>
+                                        <p>Reserve a table or order via WhatsApp</p>
+                                        <a
+                                            href="https://wa.me/919711646323"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="whatsapp-button"
+                                        >
+                                            <FaWhatsapp /> Chat on WhatsApp
+                                        </a>
+                                        <div className="map-note">
+                                            <FaMapMarkerAlt className="map-icon-small" />
+                                            <p>Find us in Sector 51, Gurugram</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="info-card email-card">
                                     <div className="info-icon">
                                         <FaEnvelope />
                                     </div>
                                     <div className="info-content">
                                         <h3>Email</h3>
                                         <p>hello@kaffeestories.com</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* Right Side - WhatsApp Booking */}
-                            <div className="contact-map">
-                                <div className="whatsapp-booking">
-                                    <FaWhatsapp className="whatsapp-icon" />
-                                    <h3>Book Your Table</h3>
-                                    <p>Reserve a table or order via WhatsApp</p>
-                                    <a
-                                        href="https://wa.me/919711646323"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="whatsapp-button"
-                                    >
-                                        <FaWhatsapp /> Chat on WhatsApp
-                                    </a>
-                                    <div className="map-note">
-                                        <FaMapMarkerAlt className="map-icon-small" />
-                                        <p>Find us in Sector 51, Gurugram</p>
                                     </div>
                                 </div>
                             </div>
