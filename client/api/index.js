@@ -85,14 +85,14 @@ const menuItems = [
     { id: 611, name: 'Desi Milk Thandai', category: 'Cool Chillers', price: 149, description: 'Traditional spiced milk drink.', image: '/images/menu/vanilla.png', tags: ['Veg', 'Gluten-Free'] },
 
     // CHINESE CULINARIES
-    { id: 1001, name: 'Hakka Noodles', category: 'Chinese', price: 199, description: 'Classic wok-tossed noodles with veggies.', image: '/images/menu/dimsum.png', tags: ['Veg', 'Vegan'] },
-    { id: 1002, name: 'Chilli Garlic Noodles', category: 'Chinese', price: 219, description: 'Spicy noodles with garlic kick.', image: '/images/menu/dimsum.png', tags: ['Veg', 'Vegan'] },
-    { id: 1003, name: 'Singapore Noodles', category: 'Chinese', price: 219, description: 'Curry flavored thin noodles.', image: '/images/menu/dimsum.png', tags: ['Veg'] },
-    { id: 1004, name: 'Veg Manchurian Gravy', category: 'Chinese', price: 269, description: 'Veggie balls in soy-ginger sauce.', image: '/images/menu/dimsum.png', tags: ['Veg', 'Vegan'] },
-    { id: 1005, name: 'Chilli Paneer Gravy', category: 'Chinese', price: 299, description: 'Cottage cheese in spicy chilli sauce.', image: '/images/menu/dimsum.png', tags: ['Veg'] },
-    { id: 1006, name: 'Veg Fried Rice', category: 'Chinese', price: 199, description: 'Wok-tossed aromatic rice with veggies.', image: '/images/menu/dimsum.png', tags: ['Veg', 'Vegan'] },
-    { id: 1007, name: 'Dimsums (Veg/Corn)', category: 'Chinese', price: 149, description: 'Steamed dumplings (8 Pcs).', image: '/images/menu/dimsum.png', tags: ['Veg'] },
-    { id: 1008, name: 'Dimsums (Chicken)', category: 'Chinese', price: 229, description: 'Steamed chicken dumplings (8 Pcs).', image: '/images/menu/dimsum.png', tags: ['Non-Veg'] },
+    { id: 1001, name: 'Hakka Noodles', category: 'Chinese', price: 199, description: 'Classic wok-tossed noodles with veggies.', image: '/images/menu/noodle.png', tags: ['Veg', 'Vegan'] },
+    { id: 1002, name: 'Chilli Garlic Noodles', category: 'Chinese', price: 219, description: 'Spicy noodles with garlic kick.', image: '/images/menu/noodle.png', tags: ['Veg', 'Vegan'] },
+    { id: 1003, name: 'Singapore Noodles', category: 'Chinese', price: 219, description: 'Curry flavored thin noodles.', image: '/images/menu/noodle.png', tags: ['Veg'] },
+    { id: 1004, name: 'Veg Manchurian Gravy', category: 'Chinese', price: 269, description: 'Veggie balls in soy-ginger sauce.', image: '/images/menu/noodle.png', tags: ['Veg', 'Vegan'] },
+    { id: 1005, name: 'Chilli Paneer Gravy', category: 'Chinese', price: 299, description: 'Cottage cheese in spicy chilli sauce.', image: '/images/menu/noodle.png', tags: ['Veg'] },
+    { id: 1006, name: 'Veg Fried Rice', category: 'Chinese', price: 199, description: 'Wok-tossed aromatic rice with veggies.', image: '/images/menu/noodle.png', tags: ['Veg', 'Vegan'] },
+    { id: 1007, name: 'Dimsums (Veg/Corn)', category: 'Chinese', price: 149, description: 'Steamed dumplings (8 Pcs).', image: '/images/menu/noodle.png', tags: ['Veg'] },
+    { id: 1008, name: 'Dimsums (Chicken)', category: 'Chinese', price: 229, description: 'Steamed chicken dumplings (8 Pcs).', image: '/images/menu/noodle.png', tags: ['Non-Veg'] },
 
     // SALADS
     { id: 1101, name: 'Classic Caesar Salad', category: 'Salads', price: 299, description: 'Lettuce, croutons, parmesan, caesar dressing.', image: '/images/menu/salad.png', tags: ['Veg'] },
