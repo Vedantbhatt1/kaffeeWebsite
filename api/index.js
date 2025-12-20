@@ -155,14 +155,6 @@ app.get('/api', (req, res) => {
     res.send('API running');
 });
 
-// Serve static files in production
-if (process.env.NODE_ENV === 'production') {
-    app.use(express.static(path.join(__dirname, '../dist')));
-    app.get('*', (req, res) => {
-        res.sendFile(path.join(__dirname, '../dist', 'index.html'));
-    });
-}
-
 // Export the app for Vercel
 module.exports = app;
 
