@@ -22,6 +22,88 @@
     letter-spacing: 2px;
 }
 
+.menu-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    box-shadow: var(--glass-shadow);
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    border-radius: 50px;
+    padding: 0.6rem 1.2rem;
+    flex: 1;
+    max-width: 400px;
+    transition: all var(--transition-fast);
+}
+
+.search-bar:focus-within {
+    border-color: var(--color-accent);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 15px rgba(198, 159, 110, 0.2);
+}
+
+.search-icon {
+    color: var(--color-accent);
+    margin-right: 0.8rem;
+    font-size: 1.1rem;
+}
+
+.search-bar input {
+    background: transparent;
+    border: none;
+    color: var(--color-text-primary);
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    width: 100%;
+}
+
+.search-bar input:focus {
+    outline: none;
+}
+
+.search-bar input::placeholder {
+    color: rgba(220, 208, 194, 0.5);
+}
+
+.dietary-filter {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.filter-tag {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    color: var(--color-text-secondary);
+    padding: 0.4rem 1rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all var(--transition-fast);
+}
+
+.filter-tag:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+}
+
+.filter-tag.active {
+    background: var(--color-accent);
+    color: var(--color-bg-primary);
+    border-color: var(--color-accent);
+}
+
 .category-filter {
     display: flex;
     justify-content: center;
@@ -257,5 +339,26 @@
 
     50% {
         opacity: 1;
+    }
+}
+/* Responsive Controls */
+@media (max-width: 768px) {
+    .menu-controls {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1.5rem;
+    }
+
+    .search-bar {
+        max-width: none;
+    }
+
+    .dietary-filter {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .menu-header h1 {
+        font-size: 2.5rem;
     }
 }
