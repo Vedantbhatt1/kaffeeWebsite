@@ -41,7 +41,7 @@ const Navbar = () => {
                         <Link to="/contact" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Visit Us</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/booking" className="btn-primary nav-btn" onClick={() => setMobileMenuOpen(false)}>Book Table</Link>
+                        <a href="https://wa.me/919711646323" target="_blank" rel="noopener noreferrer" className="btn-primary nav-btn" onClick={() => setMobileMenuOpen(false)}>Book Table</a>
                     </li>
                 </ul>
             </div>

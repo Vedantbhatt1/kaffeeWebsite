@@ -66,6 +66,8 @@
 .nav-item {
     height: 80px;
     border-bottom: 2px solid transparent;
+    display: flex;
+    align-items: center;
 }
 
 .nav-link {
@@ -102,9 +104,10 @@
 }
 
 .nav-btn {
-    padding: 0.6rem 1.5rem;
-    margin-left: 1rem;
-    border-radius: 2px;
+    padding: 0.7rem 1.8rem !important;
+    margin-left: 1.5rem;
+    border-radius: 50px !important;
+    font-size: 0.9rem;
 }
 
 .mobile-icon {

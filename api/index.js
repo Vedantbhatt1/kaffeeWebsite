@@ -29,17 +29,17 @@ app.use(express.json());
 // Real Data
 const menuItems = [
     // SHAKES
-    { id: 101, name: 'Vanilla Shake', category: 'Shakes', price: 149, description: 'Classic creamy vanilla indulgence.', image: '/images/menu/vanilla.png', tags: ['Veg', 'Gluten-Free'] },
-    { id: 102, name: 'Mango Passion Fruit Shake', category: 'Shakes', price: 199, description: 'Tropical blend of mango and passion fruit.', image: '/images/menu/mango.png', tags: ['Veg', 'Gluten-Free'] },
-    { id: 103, name: 'Blueberry Kiwi Shake', category: 'Shakes', price: 199, description: 'Refreshing berry and kiwi mix.', image: '/images/menu/blueberry.png', tags: ['Veg', 'Gluten-Free'] },
-    { id: 104, name: 'Strawberry Shake', category: 'Shakes', price: 199, description: 'Sweet and fresh strawberry blend.', image: '/images/menu/strawberry_shake.png', tags: ['Veg', 'Gluten-Free'] },
-    { id: 105, name: 'Cherry Vanilla Shake', category: 'Shakes', price: 199, description: 'Cherry twist on the classic vanilla.', image: '/images/menu/strawberry_shake.png', tags: ['Veg', 'Gluten-Free'] },
-    { id: 106, name: 'Orange Shake', category: 'Shakes', price: 199, description: 'Zesty orange creamy shake.', image: '/images/menu/mango.png', tags: ['Veg', 'Gluten-Free'] },
-    { id: 107, name: 'Butter Scotch Shake', category: 'Shakes', price: 199, description: 'Rich butterscotch flavor.', image: '/images/menu/vanilla.png', tags: ['Veg', 'Gluten-Free'] },
-    { id: 108, name: 'Pineapple Shake', category: 'Shakes', price: 199, description: 'Tropical pineapple delight.', image: '/images/menu/mango.png', tags: ['Veg', 'Gluten-Free'] },
-    { id: 109, name: 'Banana Shake', category: 'Shakes', price: 199, description: 'Creamy fresh banana.', image: '/images/menu/vanilla.png', tags: ['Veg', 'Gluten-Free'] },
+    { id: 101, name: 'Vanilla Shake', category: 'Shakes', price: 149, description: 'Classic creamy vanilla indulgence.', image: '/images/menu/vanilla.png', tags: ['Veg'] },
+    { id: 102, name: 'Mango Passion Fruit Shake', category: 'Shakes', price: 199, description: 'Tropical blend of mango and passion fruit.', image: '/images/menu/mango.png', tags: ['Veg'] },
+    { id: 103, name: 'Blueberry Kiwi Shake', category: 'Shakes', price: 199, description: 'Refreshing berry and kiwi mix.', image: '/images/menu/blueberry.png', tags: ['Veg'] },
+    { id: 104, name: 'Strawberry Shake', category: 'Shakes', price: 199, description: 'Sweet and fresh strawberry blend.', image: '/images/menu/strawberry_shake.png', tags: ['Veg'] },
+    { id: 105, name: 'Cherry Vanilla Shake', category: 'Shakes', price: 199, description: 'Cherry twist on the classic vanilla.', image: '/images/menu/strawberry_shake.png', tags: ['Veg'] },
+    { id: 106, name: 'Orange Shake', category: 'Shakes', price: 199, description: 'Zesty orange creamy shake.', image: '/images/menu/mango.png', tags: ['Veg'] },
+    { id: 107, name: 'Butter Scotch Shake', category: 'Shakes', price: 199, description: 'Rich butterscotch flavor.', image: '/images/menu/vanilla.png', tags: ['Veg'] },
+    { id: 108, name: 'Pineapple Shake', category: 'Shakes', price: 199, description: 'Tropical pineapple delight.', image: '/images/menu/mango.png', tags: ['Veg'] },
+    { id: 109, name: 'Banana Shake', category: 'Shakes', price: 199, description: 'Creamy fresh banana.', image: '/images/menu/vanilla.png', tags: ['Veg'] },
     { id: 110, name: 'Chocolate Oreo Shake', category: 'Shakes', price: 199, description: 'Oreo cookies blended with chocolate.', image: '/images/menu/chocolate.png', tags: ['Veg'] },
-    { id: 111, name: 'Chocolate Shake', category: 'Shakes', price: 199, description: 'Decadent rich chocolate.', image: '/images/menu/chocolate.png', tags: ['Veg', 'Gluten-Free'] },
+    { id: 111, name: 'Chocolate Shake', category: 'Shakes', price: 199, description: 'Decadent rich chocolate.', image: '/images/menu/chocolate.png', tags: ['Veg'] },
 
     // MOCKTAILS
     { id: 201, name: 'Iced Black Tea', category: 'Mocktails', price: 149, description: 'Refreshing chilled black tea.', image: '/images/menu/icedtea.png', tags: ['Vegan', 'Gluten-Free'] },
