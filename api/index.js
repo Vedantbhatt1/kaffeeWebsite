@@ -31,9 +31,9 @@ const menuItems = [
     // SHAKES
     { id: 101, name: 'Vanilla Shake', category: 'Shakes', price: 149, description: 'Classic creamy vanilla indulgence.', image: '/images/menu/vanilla.png', tags: ['Veg', 'Gluten-Free'] },
     { id: 102, name: 'Mango Passion Fruit Shake', category: 'Shakes', price: 199, description: 'Tropical blend of mango and passion fruit.', image: '/images/menu/mango.png', tags: ['Veg', 'Gluten-Free'] },
-    { id: 103, name: 'Blueberry Kiwi Shake', category: 'Shakes', price: 199, description: 'Refreshing berry and kiwi mix.', image: '/images/menu/berry.png', tags: ['Veg', 'Gluten-Free'] },
-    { id: 104, name: 'Strawberry Shake', category: 'Shakes', price: 199, description: 'Sweet and fresh strawberry blend.', image: '/images/menu/berry.png', tags: ['Veg', 'Gluten-Free'] },
-    { id: 105, name: 'Cherry Vanilla Shake', category: 'Shakes', price: 199, description: 'Cherry twist on the classic vanilla.', image: '/images/menu/berry.png', tags: ['Veg', 'Gluten-Free'] },
+    { id: 103, name: 'Blueberry Kiwi Shake', category: 'Shakes', price: 199, description: 'Refreshing berry and kiwi mix.', image: '/images/menu/blueberry.png', tags: ['Veg', 'Gluten-Free'] },
+    { id: 104, name: 'Strawberry Shake', category: 'Shakes', price: 199, description: 'Sweet and fresh strawberry blend.', image: '/images/menu/strawberry_shake.png', tags: ['Veg', 'Gluten-Free'] },
+    { id: 105, name: 'Cherry Vanilla Shake', category: 'Shakes', price: 199, description: 'Cherry twist on the classic vanilla.', image: '/images/menu/strawberry_shake.png', tags: ['Veg', 'Gluten-Free'] },
     { id: 106, name: 'Orange Shake', category: 'Shakes', price: 199, description: 'Zesty orange creamy shake.', image: '/images/menu/mango.png', tags: ['Veg', 'Gluten-Free'] },
     { id: 107, name: 'Butter Scotch Shake', category: 'Shakes', price: 199, description: 'Rich butterscotch flavor.', image: '/images/menu/vanilla.png', tags: ['Veg', 'Gluten-Free'] },
     { id: 108, name: 'Pineapple Shake', category: 'Shakes', price: 199, description: 'Tropical pineapple delight.', image: '/images/menu/mango.png', tags: ['Veg', 'Gluten-Free'] },
@@ -46,7 +46,7 @@ const menuItems = [
     { id: 202, name: 'Iced Lemon Tea', category: 'Mocktails', price: 149, description: 'Zesty lemon infused ice tea.', image: '/images/menu/icedtea.png', tags: ['Vegan', 'Gluten-Free'] },
     { id: 203, name: 'Iced Peach Tea', category: 'Mocktails', price: 149, description: 'Sweet peach flavored ice tea.', image: '/images/menu/icedtea.png', tags: ['Vegan', 'Gluten-Free'] },
     { id: 204, name: 'Mojito (Mint/Green Apple/Orange/Kiwi)', category: 'Mocktails', price: 149, description: 'Classic refreshing mojito in various flavors.', image: '/images/menu/mojito.png', tags: ['Vegan', 'Gluten-Free'] },
-    { id: 205, name: 'Virgin Pinacolada', category: 'Mocktails', price: 149, description: 'Coconut and pineapple tropical blend.', image: '/images/menu/mango.png', tags: ['Vegan', 'Gluten-Free'] },
+    { id: 205, name: 'Virgin Pinacolada', category: 'Mocktails', price: 149, description: 'Coconut and pineapple tropical blend.', image: '/images/menu/pinacolada.png', tags: ['Vegan', 'Gluten-Free'] },
     { id: 206, name: 'Blood Orange', category: 'Mocktails', price: 149, description: 'Exotic citrus refreshment.', image: '/images/menu/berry.png', tags: ['Vegan', 'Gluten-Free'] },
     { id: 207, name: 'Passion Fruit', category: 'Mocktails', price: 149, description: 'Tangy and sweet passion fruit cooler.', image: '/images/menu/mango.png', tags: ['Vegan', 'Gluten-Free'] },
     { id: 208, name: 'Green Apple Mocktail', category: 'Mocktails', price: 149, description: 'Crisp green apple flavor.', image: '/images/menu/mojito.png', tags: ['Vegan', 'Gluten-Free'] },
@@ -80,12 +80,12 @@ const menuItems = [
     { id: 611, name: 'Desi Milk Thandai', category: 'Cool Chillers', price: 149, description: 'Traditional spiced milk drink.', image: '/images/menu/vanilla.png', tags: ['Veg', 'Gluten-Free'] },
 
     // CHINESE CULINARIES
-    { id: 1001, name: 'Hakka Noodles', category: 'Chinese', price: 199, description: 'Classic wok-tossed noodles with veggies.', image: '/images/menu/dimsum.png', tags: ['Veg', 'Vegan'] },
-    { id: 1002, name: 'Chilli Garlic Noodles', category: 'Chinese', price: 219, description: 'Spicy noodles with garlic kick.', image: '/images/menu/dimsum.png', tags: ['Veg', 'Vegan'] },
-    { id: 1003, name: 'Singapore Noodles', category: 'Chinese', price: 219, description: 'Curry flavored thin noodles.', image: '/images/menu/dimsum.png', tags: ['Veg'] },
-    { id: 1004, name: 'Veg Manchurian Gravy', category: 'Chinese', price: 269, description: 'Veggie balls in soy-ginger sauce.', image: '/images/menu/dimsum.png', tags: ['Veg', 'Vegan'] },
-    { id: 1005, name: 'Chilli Paneer Gravy', category: 'Chinese', price: 299, description: 'Cottage cheese in spicy chilli sauce.', image: '/images/menu/dimsum.png', tags: ['Veg'] },
-    { id: 1006, name: 'Veg Fried Rice', category: 'Chinese', price: 199, description: 'Wok-tossed aromatic rice with veggies.', image: '/images/menu/dimsum.png', tags: ['Veg', 'Vegan'] },
+    { id: 1001, name: 'Hakka Noodles', category: 'Chinese', price: 199, description: 'Classic wok-tossed noodles with veggies.', image: '/images/menu/noodle.png', tags: ['Veg', 'Vegan'] },
+    { id: 1002, name: 'Chilli Garlic Noodles', category: 'Chinese', price: 219, description: 'Spicy noodles with garlic kick.', image: '/images/menu/noodle.png', tags: ['Veg', 'Vegan'] },
+    { id: 1003, name: 'Singapore Noodles', category: 'Chinese', price: 219, description: 'Curry flavored thin noodles.', image: '/images/menu/noodle.png', tags: ['Veg'] },
+    { id: 1004, name: 'Veg Manchurian Gravy', category: 'Chinese', price: 269, description: 'Veggie balls in soy-ginger sauce.', image: '/images/menu/noodle.png', tags: ['Veg', 'Vegan'] },
+    { id: 1005, name: 'Chilli Paneer Gravy', category: 'Chinese', price: 299, description: 'Cottage cheese in spicy chilli sauce.', image: '/images/menu/noodle.png', tags: ['Veg'] },
+    { id: 1006, name: 'Veg Fried Rice', category: 'Chinese', price: 199, description: 'Wok-tossed aromatic rice with veggies.', image: '/images/menu/fried_rice.png', tags: ['Veg', 'Vegan'] },
     { id: 1007, name: 'Dimsums (Veg/Corn)', category: 'Chinese', price: 149, description: 'Steamed dumplings (8 Pcs).', image: '/images/menu/dimsum.png', tags: ['Veg'] },
     { id: 1008, name: 'Dimsums (Chicken)', category: 'Chinese', price: 229, description: 'Steamed chicken dumplings (8 Pcs).', image: '/images/menu/dimsum.png', tags: ['Non-Veg'] },
 
@@ -114,21 +114,21 @@ const menuItems = [
 
     // PASTAS
     { id: 1401, name: 'Arrabiata Red Sauce', category: 'Pasta', price: 299, description: 'Spicy tomato garlic sauce with basil.', image: '/images/menu/pasta.png', tags: ['Veg', 'Vegan'] },
-    { id: 1402, name: 'Alfredo White Sauce', category: 'Pasta', price: 349, description: 'Creamy parmesan cheese sauce.', image: '/images/menu/pasta.png', tags: ['Veg'] },
+    { id: 1402, name: 'Alfredo White Sauce', category: 'Pasta', price: 349, description: 'Creamy parmesan cheese sauce.', image: '/images/menu/alfredo.png', tags: ['Veg'] },
     { id: 1403, name: 'Pink Sauce Pasta', category: 'Pasta', price: 349, description: 'Best of both worlds: creamy tomato.', image: '/images/menu/pasta.png', tags: ['Veg'] },
     { id: 1404, name: 'Aglio Olio', category: 'Pasta', price: 349, description: 'Olive oil, garlic, chilli flakes.', image: '/images/menu/pasta.png', tags: ['Veg', 'Vegan'] },
 
     // BURGERS & SANDWICHES
-    { id: 1501, name: 'Grilled Veg Sandwich', category: 'Sandwiches', price: 199, description: 'Seasonal grilled vegetables with cocktail sauce.', image: '/images/menu/burger.png', tags: ['Veg'] },
-    { id: 1502, name: 'Chicken BBQ Sandwich', category: 'Sandwiches', price: 249, description: 'Grilled chicken breast in BBQ sauce.', image: '/images/menu/burger.png', tags: ['Non-Veg'] },
+    { id: 1501, name: 'Grilled Veg Sandwich', category: 'Sandwiches', price: 199, description: 'Seasonal grilled vegetables with cocktail sauce.', image: '/images/menu/sandwich.png', tags: ['Veg'] },
+    { id: 1502, name: 'Chicken BBQ Sandwich', category: 'Sandwiches', price: 249, description: 'Grilled chicken breast in BBQ sauce.', image: '/images/menu/sandwich.png', tags: ['Non-Veg'] },
     { id: 1503, name: 'Veg Mint Mayo Burger', category: 'Sandwiches', price: 149, description: 'Veg patty with mint mayo.', image: '/images/menu/burger.png', tags: ['Veg'] },
     { id: 1504, name: 'Juicy Lucy Chicken', category: 'Sandwiches', price: 249, description: 'Chicken patty stuffed with cheese.', image: '/images/menu/burger.png', tags: ['Non-Veg'] },
-    { id: 1505, name: 'Grilled Chicken Wrap', category: 'Sandwiches', price: 249, description: 'Grilled chicken strips with salad wrap.', image: '/images/menu/burger.png', tags: ['Non-Veg'] },
+    { id: 1505, name: 'Grilled Chicken Wrap', category: 'Sandwiches', price: 249, description: 'Grilled chicken strips with salad wrap.', image: '/images/menu/sandwich.png', tags: ['Non-Veg'] },
 
     // DESSERTS
     { id: 701, name: 'Brownie Sundae', category: 'Desserts', price: 249, description: 'Warm brownie with ice cream and nuts.', image: '/images/menu/brownie.png', tags: ['Veg'] },
-    { id: 702, name: 'Choco Lava', category: 'Desserts', price: 199, description: 'Molten chocolate cake.', image: '/images/menu/brownie.png', tags: ['Veg'] },
-    { id: 703, name: ' Kesariya Phirni', category: 'Desserts', price: 149, description: 'Saffron rice pudding.', image: '/images/menu/vanilla.png', tags: ['Veg', 'Gluten-Free'] },
+    { id: 702, name: 'Choco Lava', category: 'Desserts', price: 199, description: 'Molten chocolate cake.', image: '/images/menu/choco_lava.png', tags: ['Veg'] },
+    { id: 703, name: ' Kesariya Phirni', category: 'Desserts', price: 149, description: 'Saffron rice pudding.', image: '/images/menu/phirni.png', tags: ['Veg', 'Gluten-Free'] },
     { id: 704, name: 'Hot Chocolate', category: 'Desserts', price: 199, description: 'Rich hot cocoa.', image: '/images/menu/chocolate.png', tags: ['Veg', 'Gluten-Free'] },
     { id: 705, name: 'Oreo Cookie & Fudge Brownie', category: 'Desserts', price: 259, description: 'Decadent oreo fudge brownie.', image: '/images/menu/brownie.png', tags: ['Veg'] },
     { id: 706, name: 'Ice-Cream (Per Scoop)', category: 'Desserts', price: 109, description: 'Choice of vanilla, chocolate, or strawberry.', image: '/images/menu/vanilla.png', tags: ['Veg', 'Gluten-Free'] },
